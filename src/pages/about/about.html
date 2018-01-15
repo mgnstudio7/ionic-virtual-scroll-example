@@ -11,7 +11,7 @@
 
   <div class="virtual-container">
 
-    <virtual-scroll #scroll bottom-offset="5" virtual-ratio="15" selector="about-page .scroll-content">
+    <virtual-scroll #scroll bottom-offset="5" virtual-ratio="5" selector="about-page .scroll-content">
       <div slot="virtual" class="virtual-slot">
         <div class="offer virtual-item" [attr.id]="item.index" *ngFor="let item of virtual">
           <div [style.backgroundImage]="'url(' + item.thumbnailUrl + ')'" class="cover">
