@@ -19,7 +19,7 @@ export class AboutPage {
   }
 
 
-  ionViewDidEnter() {
+  ionViewDidLoad() {
     
     this.vscroll.nativeElement.addEventListener('update', (event) => {
       this.virtual = event.detail;
