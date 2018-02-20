@@ -3,7 +3,7 @@
 
 Repo: [https://github.com/mgnstudio7/stenciljs-virtual-scroll]
 
-v 1.1.6
+v 1.1.10
 
 See page About.
 
