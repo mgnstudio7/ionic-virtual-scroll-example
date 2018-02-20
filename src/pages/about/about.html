@@ -14,10 +14,10 @@
     <virtual-scroll #scroll bottom-offset="5" virtual-ratio="5" selector="about-page .scroll-content">
       <div slot="virtual" class="virtual-slot">
         <div class="offer virtual-item" [attr.id]="item.index" *ngFor="let item of virtual">
-          <div [style.backgroundImage]="'url(' + item.thumbnailUrl + ')'" class="cover">
+          <div [style.backgroundImage]="'url(https://cdn.worldvectorlogo.com/logos/ethereum-1.svg)'" class="cover">
           </div>
           <div class="title">{{item.index}}</div>
-          <div class="title">{{item.title}}</div>
+          <div class="title">{{item.name}}</div>
         </div>
       </div>
       <div slot="loader">loading...</div>
