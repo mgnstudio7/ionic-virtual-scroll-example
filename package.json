@@ -1,6 +1,6 @@
 {
   "name": "ionic-virtual-scroll-example",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "mgnstudio",
   "homepage": "https://github.com/mgnstudio7/ionic-virtual-scroll-example.git#readme",
   "private": true,
@@ -28,7 +28,7 @@
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
     "rxjs": "5.5.2",
-    "stenciljs-virtual-scroll": "^1.1.10",
+    "stenciljs-virtual-scroll": "^1.2.2",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.8.18"
   },

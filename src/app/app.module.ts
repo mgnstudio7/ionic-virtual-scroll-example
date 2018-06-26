@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
 
-import 'stenciljs-virtual-scroll';
+import 'stenciljs-virtual-scroll/dist/virtualscroll';
 
 @NgModule({
   declarations: [
